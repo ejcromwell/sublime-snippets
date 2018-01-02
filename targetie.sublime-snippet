@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+//providing fallback for IE 10 + 11
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  ${1:position}
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>targetie</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.css</scope> -->
+</snippet>
