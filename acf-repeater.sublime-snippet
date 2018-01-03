@@ -5,7 +5,7 @@
   <?php while ( have_rows('${2:repeater_field_name}') ) : the_row(); ?>
 
     //display a sub field value
-    <php the_sub_field('${3:sub_field_name}'); ?>
+    <?php the_sub_field('${3:sub_field_name}'); ?>
 
   <?php endwhile; ?>
 
