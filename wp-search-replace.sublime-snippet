@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+wp @${1:dev} search-replace '${2:http://example.dev}' '${3:http://example.com}' --dry-run
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>wpsar</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- < scope>embedding.php</scope> -->
+</snippet>
+
